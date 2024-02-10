@@ -1,0 +1,39 @@
+:root {
+    --main-color: #FFA724;
+    --secondary-color: #A26D5F;
+    --third-color: #646464;
+    --fourth-color: #C6C6C6;
+}
+body {
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: var(--main-color);
+}
+.top-coding-image {
+    width: 100%;
+    height: 5rem;
+    background-image: url('img/code.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.faded-image {
+    width: 100%;
+    height: 5rem;
+    background-image: linear-gradient(to top, rgb(255, 255, 255, 100%), rgba(255, 255, 255, 0%));
+}
+.title-container {
+    width: 40%;
+    display: grid;
+    grid: 1rem / auto;
+    grid-gap: 1rem;
+    text-align: center;
+    border: 1px solid black;
+}
+/* .frontend-title {
+    grid: 2rem / auto auto auto;
+    border: 1px solid black;
+} */
