@@ -1,3 +1,4 @@
+@font-face { font-family: font; src: url(fonts/NotoSansHK-ExtraBold.ttf);} 
 :root {
     --main-color: #FFA724;
     --secondary-color: #A26D5F;
@@ -15,7 +16,7 @@ header {
 .top-coding-image {
     width: 100%;
     height: 5rem;
-    background-image: url('img/code.jpg');
+    background-image: url('assets/images/code.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -27,15 +28,18 @@ header {
 }
 .title-container {
     display: grid; 
-    grid-template-rows: 7em 7em 7em 7em;
-    /** grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-rows: 1.5em 7em 7em 7em;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     grid-template-columns: 7em 7em 7em;
     text-align: center;
+    align-items: center;
 }
 .portfolio-title {
     grid-row: 2 / 3;
     grid-column: 1 / 4;
     background-color: #646464;
+    font-size: 5rem;
+    font-family: portfolioFont;
 }
 .transformation-title {
     grid-row: 4 / 5;
