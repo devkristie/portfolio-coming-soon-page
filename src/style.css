@@ -33,6 +33,7 @@ header {
     grid-template-columns: 7em 7em 7em;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 .portfolio-title {
     grid-row: 2 / 3;
