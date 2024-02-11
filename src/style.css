@@ -44,6 +44,7 @@ header {
     text-transform: uppercase;
     font-size: 3.3rem;
     font-family: portfolioFont, Arial, Helvetica, sans-serif;
+    color: var(--main-color);
 }
 .renovation-title {
     grid-row: 3 / 4;
@@ -60,9 +61,8 @@ header {
     grid-column: 2 / 3;
 }
 footer {
-    bottom: 0;
-    left: 0;
+
     width: 100%;
     height: 5rem;
-    background-color: #646464;
+    background-color: var(--third-color);
 }
