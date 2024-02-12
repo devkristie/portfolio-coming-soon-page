@@ -1,4 +1,5 @@
 @font-face { font-family: 'portfolioFont'; src: url('assets/fonts/NotoSansHK-ExtraBold.ttf');} 
+@font-face { font-family: 'allOtherFont'; src: url('assets/fonts/Poppins-Regular.ttf');} 
 :root {
     --main-color: #FFA724;
     --secondary-color: #A26D5F;
@@ -39,6 +40,9 @@ header {
     font-size: 1rem;
     color: var(--fourth-color);
 }
+.frontend-title, .web-title, .development-title, .renovation-title, .new-website-title, .transformation-title {
+    font-family: allOtherFont;
+}
 .portfolio-title {
     grid-row: 2 / 3;
     grid-column: 1 / 4;
@@ -58,11 +62,13 @@ header {
     grid-row: 4 / 5;
     grid-column: 2 / 3;
     color: var(--third-color);
+    font-size: 1rem;
 }
 .transformation-title {
     grid-row: 5 / 6;
-    grid-column: 2 / 3;
+    grid-column: 1 / 4;
     color: var(--fourth-color);
+    font-size: 1.25rem;
 }
 footer {
     position: fixed;
