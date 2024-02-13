@@ -43,7 +43,7 @@ header {
     color: var(--fourth-color);
 }
 .frontend-title, .renovation-title, .new-website-title, .transformation-title, .bookmark {
-    font-family: allOtherFont;
+    font-family: allOtherFont, Arial, Helvetica, sans-serif;
 }
 .portfolio-title {
     grid-row: 2 / 3;
