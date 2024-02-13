@@ -59,9 +59,9 @@ header {
     color: var(--third-color);
 }
 path {
-    fill:none;
+    fill: none;
     stroke: var(--secondary-color);
-    stroke-width:3
+    stroke-width: 6;
 }
 .new-website-title {
     grid-row: 4 / 5;
