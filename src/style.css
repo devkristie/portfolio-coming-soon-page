@@ -1,5 +1,5 @@
 @font-face { font-family: 'portfolioFont'; src: url('NotoSansHK-ExtraBold.ttf');} 
-@font-face { font-family: 'allOtherFont'; src: url('Poppins-Regular.ttf');} 
+@font-face { font-family: 'allOtherFont'; src: url('poppins-regular-webfont.woff2');} 
 :root {
     --main-color: #FFA724;
     --secondary-color: #A26D5F;
