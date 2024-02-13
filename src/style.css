@@ -1,5 +1,5 @@
-@font-face { font-family: 'portfolioFont'; src: url('assets/fonts/NotoSansHK-ExtraBold.ttf');} 
-@font-face { font-family: 'allOtherFont'; src: url('assets/fonts/Poppins-Regular.ttf');} 
+@font-face { font-family: 'portfolioFont'; src: url('NotoSansHK-ExtraBold.ttf');} 
+@font-face { font-family: 'allOtherFont'; src: url('Poppins-Regular.ttf');} 
 :root {
     --main-color: #FFA724;
     --secondary-color: #A26D5F;
@@ -17,7 +17,7 @@ header {
 .top-coding-image {
     width: 100%;
     height: 5rem;
-    background-image: url('assets/images/code.jpg');
+    background-image: url('code.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
