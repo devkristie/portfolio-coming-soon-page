@@ -29,18 +29,20 @@ header {
 }
 .title-container {
     display: grid; 
-    grid-template-rows: 1.5em 2em 7em 2em 7em;
+    grid-template-rows: 1.2em 2em 7em 2em 7em;
     grid-template-columns: 7em 7em 7em;
     margin-top: 2em;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
-.frontend-title, .web-title, .development-title {
+.frontend-title {
+    grid-row: 1 / 1;
+    grid-column: 1 / 4;
     font-size: 1rem;
     color: var(--fourth-color);
 }
-.frontend-title, .web-title, .development-title, .renovation-title, .new-website-title, .transformation-title, .bookmark {
+.frontend-title, .renovation-title, .new-website-title, .transformation-title, .bookmark {
     font-family: allOtherFont;
 }
 .portfolio-title {
