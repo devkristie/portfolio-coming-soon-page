@@ -1,3 +1,4 @@
+/*fonts*/
 @font-face { font-family: 'portfolioFont'; src: url('assets/fonts/Montserrat-ExtraBold.ttf');} 
 @font-face { font-family: 'allOtherFont'; src: url('assets/fonts/poppins-regular-webfont.woff2');} 
 @font-face { font-family: 'renovationFont'; src: url('assets/fonts/poppins-light-webfont.woff2');}
@@ -8,12 +9,12 @@
     --third-color: #646464;
     --fourth-color: #C6C6C6;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
-}  
 html {
     box-sizing: border-box;
 }
+*, *:before, *:after {
+    box-sizing: inherit;
+}  
 body {
     margin: 0;
 }
