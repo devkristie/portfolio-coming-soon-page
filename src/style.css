@@ -3,6 +3,7 @@
 @font-face { font-family: 'allOtherFont'; src: url('assets/fonts/poppins-regular-webfont.woff2');} 
 @font-face { font-family: 'renovationFont'; src: url('assets/fonts/poppins-light-webfont.woff2');}
 @font-face { font-family: 'underwayFont'; src: url('assets/fonts/poppins-semibold-webfont.woff2');}
+/*colour scheme CSS variables*/
 :root {
     --main-color: #FFA724;
     --secondary-color: #A26D5F;
@@ -36,6 +37,7 @@ header {
     height: 5rem;
     background-image: linear-gradient(to top, rgb(255, 255, 255, 100%), rgba(255, 255, 255, 0%));
 }
+/*main content*/
 .title-container {
     display: grid; 
     grid-template-rows: 1.2em 2em 7em 2em 7em;
