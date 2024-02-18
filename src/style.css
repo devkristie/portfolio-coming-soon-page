@@ -48,6 +48,12 @@ header {
     align-items: center;
     justify-content: center;
 }
+/*media query*/
+@media only screen and (max-height: 600px) {
+    .title-container {
+        grid-template-rows: 1.2em 2em 5em 2em 5em;
+    }
+}
 .frontend-title {
     grid-row: 1 / 1;
     grid-column: 1 / 4;
