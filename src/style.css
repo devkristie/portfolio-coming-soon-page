@@ -9,6 +9,7 @@
     --secondary-color: #A26D5F;
     --third-color: #646464;
     --fourth-color: #C6C6C6;
+    --fith-color: #FEFEFE;
 }
 html {
     box-sizing: border-box;
@@ -111,11 +112,11 @@ footer {
 }
 .bookmark {
     text-align: center;
-    color: #FEFEFE;
+    color: var(--fith-color);
 }
 i {
     display: flex;
     flex-direction: row;
     padding-left: 0.5rem;
-    color: #FEFEFE;
+    color: var(--fith-color);
 }
