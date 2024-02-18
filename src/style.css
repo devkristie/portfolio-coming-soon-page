@@ -86,7 +86,7 @@ header {
     text-shadow: 0.5px 0.5px 3px var(--fourth-color);
 
 }
-path {
+.plus-line {
     fill: none;
     stroke: var(--secondary-color);
     stroke-width: 6;
