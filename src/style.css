@@ -125,3 +125,9 @@ i {
     padding-left: 0.5rem;
     color: var(--fith-color);
 }
+i:hover {
+    color: var(--main-color);
+}
+i:visited {
+    color: var(--fith-color);
+}
