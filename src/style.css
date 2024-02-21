@@ -37,7 +37,12 @@ header {
     height: 5rem;
     background-image: linear-gradient(to top, rgb(255, 255, 255, 100%), rgba(255, 255, 255, 0%));
 }
-/*main content*/
+.top-curve {
+    fill: none;
+    fill: var(--main-color);
+    stroke: var(--main-color);
+    stroke-width: 1;
+}
 .title-container {
     display: grid; 
     grid-template-rows: 1.2em 2em 7em 2em 7em;
@@ -102,6 +107,18 @@ header {
     color: var(--fourth-color);
     font-size: 1.25rem;
 }
+.bottom-curve-container {
+    width: 100%;
+    height: 5rem;
+    bottom: 0;
+    position: fixed;
+}
+.bottom-curve {
+    fill: solid;
+    fill: var(--fith-color);
+    stroke: var(--fith-color);
+    stroke-width: 1;
+}
 footer {
     width: 100%;
     height: 5rem;
@@ -121,6 +138,8 @@ footer {
 }
 i {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     padding-left: 0.5rem;
     color: var(--fith-color);
