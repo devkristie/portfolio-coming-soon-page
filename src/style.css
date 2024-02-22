@@ -16,6 +16,7 @@ html {
 }
 *, *:before, *:after {
     box-sizing: inherit;
+    cursor: default;
 }  
 body {
     margin: 0;
@@ -141,7 +142,8 @@ i {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding-left: 0.5rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
     color: var(--fith-color);
 }
 i:hover {
