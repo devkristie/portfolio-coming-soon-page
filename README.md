@@ -23,6 +23,17 @@ Ctrl + D
 
 ---
 
+##### Programs Used
+
+The tools used to create this page:
+
+Figma
+HTML
+CSS
+jQuery
+
+---
+
 ##### Credits
 
 Icons by [FontAwesome](www.fontawesome.com) | Fonts by [Google Fonts](www.fonts.google.com) | Image by [Kristie Larke](www.kristolio.co.uk)
