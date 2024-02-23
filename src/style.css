@@ -20,6 +20,7 @@ html {
 }  
 body {
     margin: 0;
+    background-color: var(--fith-color);
 }
 header {
     width: 100%;
@@ -108,6 +109,9 @@ header {
     color: var(--fourth-color);
     font-size: 1.25rem;
 }
+.transformation-animation {
+    font-size: 1.50rem;
+}
 footer {
     width: 100%;
     height: 5rem;
@@ -126,7 +130,7 @@ footer {
     stroke: var(--third-color);
     stroke-width: 1;
 }
-.footer-text-container{
+.footer-text-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,6 +140,9 @@ footer {
 .bookmark {
     text-align: center;
     color: var(--fith-color);
+}
+a {
+    text-decoration: none;
 }
 i {
     display: flex;
